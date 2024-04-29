@@ -12,7 +12,7 @@
             if (window.location.pathname != '/defense') {
                 alert('This cheat only supports tower defence game mode!')
             } else {
-                let tokens = Number(parseFloat(prompt('How many tokens do you want?')));
+                let tokens = 9999999 (parseFloat(prompt('How many tokens do you want?')));
                 reactHandler().stateNode.setState({ tokens });
         
                 alert('Tokens set!');
